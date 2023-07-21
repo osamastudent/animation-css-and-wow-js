@@ -1,0 +1,108 @@
+.container{
+height: 1500px;
+width: 1200px;
+background-color: yellow;
+}
+
+.header{
+height: 30px;
+width: 1200px;
+background-color: skyblue;
+text-align: center;
+line-height: 30px;
+}
+
+.logo{
+height: 50px;
+width: 150px;
+margin: 20px;
+}
+
+
+.navbar{
+height: 100px;
+width: 1200px;
+background-color: green;
+float: left;
+}
+
+
+
+.ntext{
+height: 50px;
+width: 450px;
+background-color: skyblue;
+margin-top: -65px;
+margin-left: 350px;
+border-radius: 5px;
+
+}
+
+.ntext a{
+text-decoration: none;
+float: left;
+line-height: 50px;
+margin-left: 50px;
+}
+
+.navbar ul{
+list-style-type: none;
+}
+
+.srch{
+float: right;
+margin-top: -38px;
+padding-right: 20px;
+color: white;
+}
+
+.srch input{
+border-radius: 50px;
+}
+
+.carasoul{
+height: 300px;
+width: 1200px;
+float: left;
+animation-name: carasoul;
+animation-duration: 6s;
+background-image: url(img/class\ photo.jpg);
+animation-iteration-count: infinite;
+background-size: 100% 100%;
+
+}
+@keyframes carasoul{
+    0%{background-image: url(img/class\ photo.jpg);}
+    25%{background-image: url(img/oppo1.jpg);}
+    50%{background-image: url(img/samsung1.jpg);}
+    75%{background-image: url(img/samsung2.jpg);}
+    100%{background-image: url(img/techno1.jpg);}
+    }
+
+
+.sidebar{
+height: 1300px;
+width: 100px;
+background-color: green;
+float: left;
+text-align:  justify;
+}
+
+.content{
+height: 1300px;
+width: 1100px;
+background-color: skyblue;
+float: left;
+}
+
+.myimg{
+height: auto;
+width: auto;
+float: left;
+margin: 15px 0px 0px 40px;
+border-radius: 50px;
+}
+
+
+
+
